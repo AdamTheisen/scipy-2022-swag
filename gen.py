@@ -179,10 +179,10 @@ def plot_one(ax, cmap, name, short, desc, meth, group=None, gn="0/0", tn="0/0"):
     p = PatchCollection(patches, alpha=0.90, ec=cc, fc="white", lw=0)
     ax.add_collection(p)
 
-    crect = Polygon(rect(-2.55, 2.1, -3.00))  # whiteish bg
+    crect = Polygon(rect(-2.55, 2.1, -3.20))  # whiteish bg
     p2 = PatchCollection([crect], alpha=0.90, ec=cc, fc=get_cmap(cmap)(0.5), lw=0)
     ax.add_collection(p2)
-    footer = "Trade this card with other attendees. Find a pair.\nCome get more at NumFOCUS or QuanSight Booth"
+    footer = "Trade this card with other attendees. Find a set.\nCome get more at the Data Booth"
 
     ax.text(
         0,
@@ -218,7 +218,7 @@ def plot_one(ax, cmap, name, short, desc, meth, group=None, gn="0/0", tn="0/0"):
         -2.0,
         -0.5,
         desc,
-        fontsize=22,
+        fontsize=20,
         fontfamily="Menlo",
         fontweight="light",
         transform=ax.transData,
@@ -228,7 +228,7 @@ def plot_one(ax, cmap, name, short, desc, meth, group=None, gn="0/0", tn="0/0"):
     fcolor = "white" if cmap in {"gray", "twilight", "gist_heat"} else "black"
 
     txt = ax.text(
-        -2.0, -2.9, footer + "   " + tn, fontsize=18, fontfamily="Raleway", color=fcolor
+        -2.0, -3.0, footer + "   " + tn, fontsize=18, fontfamily="Raleway", color=fcolor
     )
 
     # for t in [txt]:

@@ -1,81 +1,60 @@
-- name: Sky is the limit
+- name: Open Source Software
   cmap: Wistia
   shape: tri
   items:
-    - astropy
-    - poliastro
-    - sunpy
-    - skypy
-- name: Packaging
-  cmap: Greens
-  shape: noise
-  items:
-    - conda-forge
-    - conda
-- name: Performance
-  cmap: twilight
-  shape: scatter
-  items:
-    - Dask
-    - cython
-    - numba
-    - cupy
-- name: Visualization
-  cmap: winter
-  shape: hex
-  items:
-    - matplotlib
-    - bokeh
-    - Scikit-Image
-      #    - napari
-      #    - holoviz
-- name: Support
-  cmap: viridis
-  shape: tri
-  items:
-    - Numfocus
-    - Scipy 2022
-    - OpenTeams
-    - Scientific Python
-- name: IDE
-  shape: tri
-  cmap: Oranges
-  items:
-    - IPython
-    - Jupyter
-    - Spyder
-- name: Mathematics
-  cmap: Purples
-  shape: noise
-  items:
-    - sympy
-    - scipy
-    - mathjax
-- name: Building blocks
-  shape: tri
-  cmap: Blues
-  items:
-    - numpy
-    - zarr
-    - xarray
-    - NetworkX
-- name: Machine Learning
-  shape: tri
-  cmap: gist_heat
-  items:
-    - Scikit-Learn
-    - PyTorch Ignite
-- name: Dataframes
-  items:
-    - Pandas
-    - GeoPandas
-    - Pandera
-  shape: tri
-  cmap: BrBG
-- name: Testing
-  items:
-    - Pytest
-    - Hypothesis
-    - Ghostwriter
-  shape: tri
-  cmap: rainbow  # *not* jet
+    - ACT
+    - Py-ART
+    - RadTraQ
+    - PySP2
+    - ARM-Notebooks
+#- name: Aerosol Instrumentation
+#  cmap: Greens
+#  shape: noise
+#  items:
+#    - acsm
+#    - ccn
+#- name: Value Added Products
+#  cmap: twilight
+#  shape: scatter
+#  items:
+#    - kazrarscl
+#- name: Visualization
+#  cmap: winter
+#  shape: hex
+#  items:
+#    - matplotlib
+#- name: Support
+#  cmap: viridis
+#  shape: tri
+#  items:
+#    - Numfocus
+#- name: IDE
+#  shape: tri
+#  cmap: Oranges
+#  items:
+#    - IPython
+#- name: Mathematics
+#  cmap: Purples
+#  shape: noise
+#  items:
+#    - sympy
+#- name: Building blocks
+#  shape: tri
+#  cmap: Blues
+#  items:
+#    - numpy
+#- name: Machine Learning
+#  shape: tri
+#  cmap: gist_heat
+#  items:
+#    - Scikit-Learn
+#- name: Dataframes
+#  items:
+#    - Pandas
+#  shape: tri
+#  cmap: BrBG
+#- name: Testing
+#  items:
+#    - Pytest
+#  shape: tri
+#  cmap: rainbow  # *not* jet
