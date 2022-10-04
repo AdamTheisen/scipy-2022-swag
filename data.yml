@@ -1,9 +1,11 @@
 - name: ACT
   desc: |+
-    Toolkit for working with atmospheric
-    research time-series datasets. Houses
-    functions for discovery, I/O, Plotting,
-    Retrievals, Corrections, and more.
+    Toolkit for exploring and analyzing
+    atmospheric research time-series 
+    datasets. Houses functions for 
+    discovery, reading and writing data, 
+    plotting, retrievals, corrections, 
+    and more.
 
     https://github.com/ARM-DOE/ACT
 
@@ -12,17 +14,17 @@
     Collection of weather radar algorithms
     and utilities. Py-ART is used by the 
     Atmospheric Radiation Measurement (ARM) 
-    Climate Research Facility for working 
-    with data from its scanning radars as
-    well as a broad range of non-ARM radars
+    User Facility for working with data from 
+    its scanning radars as well as a broad 
+    range of non-ARM radars.
 
     https://arm-doe.github.io/pyart/
 
 - name: RadTraQ
   desc: |+
     RadTraQ is a python library in development
-    for assessing and monitoring the quality
-    of a radar's quality and calibration.
+    for assessing and monitoring a radar's 
+    quality and calibration.
 
     Currently includes functions for corner
     reflector analysis, cloud masks, profile
@@ -32,7 +34,7 @@
 
 - name: PySP2
   desc: |+
-    This is a python package for processing
+    PySP2 is a python package for processing
     and visualizing SP2 data. PySP2 currently
     supports processing all raw SP2 data 
     (.sp2b, .hk, .ini) files into mass and 
