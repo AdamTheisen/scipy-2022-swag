@@ -19,3 +19,6 @@ Card texts are defined in `data.yml`, and color schemes are defined in `group.ya
 # Samples
 
 <img src='cards-groups/Open-Source-Software-1-ACT-card.png' width='30%' /> <img src='cards-groups/Open-Source-Software-2-Py-ART-card.png' width='30%' /> <img src='cards-groups/Open-Source-Software-3-RadTraQ-card.png' width='30%' /> <img src='cards-groups/Open-Source-Software-4-PySP2-card.png' width='30%' /> <img src='cards-groups/Open-Source-Software-5-ARM-Notebooks-card.png' width='30%' /> 
+
+## Suggested Backside Images
+<img src='cards-groups/backside.png' width='30%' />
