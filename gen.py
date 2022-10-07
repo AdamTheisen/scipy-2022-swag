@@ -182,7 +182,7 @@ def plot_one(ax, cmap, name, short, desc, meth, group=None, gn="0/0", tn="0/0"):
     crect = Polygon(rect(-2.55, 2.1, -3.20))  # whiteish bg
     p2 = PatchCollection([crect], alpha=0.90, ec=cc, fc=get_cmap(cmap)(0.5), lw=0)
     ax.add_collection(p2)
-    footer = "Trade this card with other attendees. Find a set.\nCome get more at the Data Booth"
+    footer = "Trade this card with other attendees.\nCome get more at the Data Booth"
 
     ax.text(
         0,
