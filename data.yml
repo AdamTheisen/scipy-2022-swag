@@ -1,11 +1,10 @@
 - name: ACT
   desc: |+
     Toolkit for exploring and analyzing
-    atmospheric research time-series 
-    datasets. Houses functions for 
-    discovery, reading and writing data, 
-    plotting, retrievals, corrections, 
-    and more.
+    atmospheric time-series datasets. 
+    Houses functions for discovery, 
+    reading and writing data, plotting, 
+    retrievals, corrections, and more.
 
     https://github.com/ARM-DOE/ACT
 
@@ -22,7 +21,7 @@
 
 - name: RadTraQ
   desc: |+
-    RadTraQ is a python library in development
+    RadTraQ is a developmental python library
     for assessing and monitoring a radar's 
     quality and calibration.
 
@@ -44,10 +43,10 @@
 
 - name: ARM-Notebooks
   desc: |+
-    Repository for housing Jupyter Notebooks
-    related to working with ARM data.  These
-    inculde instruments, VAPs, Models, and 
-    basic tutorials.
+    Repository for Jupyter Notebooks related 
+    to working with ARM data.  These inculde
+    instruments, VAPs, Models, and basic 
+    tutorials.
 
     https://github.com/ARM-Development/
     ARM-Notebooks
